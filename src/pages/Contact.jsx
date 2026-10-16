@@ -42,17 +42,11 @@ const Contact = () => {
 
   return (
     <div>
-    <ToastContainer
-      position="top-right"
-      autoClose={3000}
-      hideProgressBar={false}
-      closeOnClick
-      pauseOnHover
-      draggable
-      theme="dark"
-    />
+   
     <section className="contact-section">
+
       <div className="contact-container">
+          <h1 className="contact-title">Contact Us</h1>
 
         {/* TOP INFO */}
         <div className="contact-info-flex">
@@ -164,6 +158,15 @@ const Contact = () => {
 
       </div>
     </section>
+     <ToastContainer
+      position="top-right"
+      autoClose={3000}
+      hideProgressBar={false}
+      closeOnClick
+      pauseOnHover
+      draggable
+      theme="dark"
+    />
   </div>
   );
 };

@@ -51,13 +51,14 @@
   border-radius: 14px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   animation: fade 10s infinite ease-in-out;
 }
 
 @keyframes fade {
-  0% { background-image: url('../image/diagnose.jpg'); }
-  50% { background-image: url('../image/diagno.jpg'); }
-  100% { background-image: url('../image/DIAG.jpg'); }
+  0% { background-image: url('../image/garage.webp'); }
+  50% { background-image: url('../image/garageManager.webp'); }
+  100% { background-image: url('../image/garage.webp'); }
 }
 
 /* CNG images */

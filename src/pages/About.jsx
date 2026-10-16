@@ -1,8 +1,8 @@
-import me from "../assets/image/image_02.webp";
-import he from "../assets/image/image_07.webp";
+import he from "../assets/image/image_02.webp";
+import me from "../assets/image/garageManager.webp";
 import cng from "../assets/image/CNG.jpg";
 import kit from "../assets/image/CNG KIT.jpg";
-import training from "../assets/image/image copy.png"; // <-- Add an image for training
+import training from "../assets/image/garageImage.webp"; // <-- Add an image for training
 import "../assets/style/about.css";
 
 

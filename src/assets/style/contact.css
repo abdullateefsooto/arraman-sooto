@@ -2,6 +2,24 @@
   padding: 60px 20px;
 }
 
+.contact-title {
+  text-transform: capitalize;
+  color: #1e3a8a;
+  text-align: center;
+  font-family: serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.contact-title::after{
+   content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ef4444;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
 .contact-container {
   max-width: 1200px;
   margin: auto;
